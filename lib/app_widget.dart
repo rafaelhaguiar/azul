@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:verde/home_page.dart';
+import 'package:verde/tela_inicial.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
@@ -7,7 +7,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomePage(),
+      home: TelaInicial(),
     );
   }
 }
